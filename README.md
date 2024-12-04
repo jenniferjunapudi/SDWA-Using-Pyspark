@@ -59,7 +59,7 @@ Compliance Trends
 - Deployment:
        - Power BI dashboard and GitHub repository established.
 
-## Limitaions
+## Limitations
 - Data Constraints
         Limited dataset scope to compliance and violation records; excluded external factors like goeographical data
         Inconsistent data quality (e.g., missing entries, multiple records with different attributes) requiring significant preprocessing.
