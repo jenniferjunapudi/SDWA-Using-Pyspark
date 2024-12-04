@@ -36,8 +36,13 @@ The project focuses on evaluating and segmenting public water systems based on c
 - Dashboard integration with Power BI for interactive insights.
 
 ## Models Used
-- K-MEANS
-- GAUSSIAN MIXTURE MODEL
+- Unsupervised Models
+    -  K-MEANS
+    - GAUSSIAN MIXTURE MODEL
+- Supervised Models
+    - Multinomial Logistic Regression
+    - Random Foresst
+    - Naive Bayes Classifer
 
 
 
