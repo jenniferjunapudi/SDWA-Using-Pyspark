@@ -6,8 +6,7 @@
   ## Table of contents
 - [Overview](#overview)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Models Used](#models-used)
 - [Visualizations](#visualizations)
 - [Future Work](#future-work)
 - [Acknowlegements](#acknowledgements)
@@ -36,10 +35,10 @@ The project focuses on evaluating and segmenting public water systems based on c
 - Analyzing violation trends and feature contributions.
 - Dashboard integration with Power BI for interactive insights.
 
-## Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/SDWA-Analysis.git
+## Models Used
+- K-MEANS
+- GAUSSIAN MIXTURE MODEL
+
 
 
 ## Visualizations
@@ -51,9 +50,44 @@ Compliance Trends
 
 <p align="center"> <img src="results/cluster_visualizations.png" alt="Clustering Results" width="70%"> </p>
 
+## Conclusions
+- Clustering Insights:
+      - Created 5 distinct clusters with meaningful segmentation of water systems.
+    High-risk clusters highlight operational priorities for regulatory actions.
+- Compliance Factors:
+      - Major violations and late compliance actions are key indicators of system performance.
+- Deployment:
+       - Power BI dashboard and GitHub repository established.
+
+## Limitaions
+- Data Constraints
+        Limited dataset scope to compliance and violation records; excluded external factors like goeographical data
+        Inconsistent data quality (e.g., missing entries, multiple records with different attributes) requiring significant preprocessing.
+-  Cluster Interpretation Challenges
+        Difficulty in deriving domain-specific explanations for certain clusters due to a lack of contextual metadata.
+-  Model Assumptions
+        GMM clustering assumes normally distributed data, which might not always reflect real-world compliance behaviors.
+- Scalability
+        Current deployment pipeline and dashboard are designed for static datasets, limiting their effectiveness with high-volume or live data streams.
+- Stakeholder Usability
+        The dashboard and repository might require technical expertise for full utilization, creating a learning curve for non-technical users.
+
 ## Future Work
-Incorportae real-time monitoring using MLOps principles.
-Extend to other environemental compliance datasets
+- Enhanced Explainability
+        Goal: Integrate Explainable AI (XAI) to improve interpretability of clustering and prediction models.
+        Impact: Enable regulators and stakeholders to understand why certain systems are flagged as high-risk.
+- Real-Time Data Integration
+        Goal: Utilize streaming platforms for continuous monitoring of water system compliance.
+        Impact: Ensure proactive detection of emerging compliance issues.
+- Expanded Dataset Usage
+        Goal: Incorporate additional data such as geographical, socio-economic, and historical compliance records.
+        Impact: Provide a more comprehensive risk assessment framework.
+- Multi-Model Evaluation
+        Goal: Experiment with advanced clustering algorithms (e.g., DBSCAN or Hierarchical Clustering) for comparison with GMM results.
+        Impact: Ensure robustness and adaptability of clustering techniques.
+- Predictive Maintenance Models
+        Goal: Develop time-series models to predict future violations based on historical data.
+        Impact: Empower authorities to prevent violations before they occur.
 
 # Acknowledgments
 - Data sourced:
