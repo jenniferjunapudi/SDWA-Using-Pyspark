@@ -8,6 +8,8 @@
 - [Features](#features)
 - [Models Used](#models-used)
 - [Visualizations](#visualizations)
+- [Conclusions](#conclusion)
+- [Limitations](#limitations)
 - [Future Work](#future-work)
 - [Acknowlegements](#acknowledgements)
   
