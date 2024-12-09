@@ -96,7 +96,7 @@ Compliance Trends
         - Goal: Develop time-series models to predict future violations based on historical data.
         - Impact: Empower authorities to prevent violations before they occur.
 
-## Acknowledgments
+## Acknowledgements
 - Data sourced:
     - U.S. Environmental Protection Agency (EPA) [SDWA database](https://echo.epa.gov/tools/data-downloads#drinkingwater)
 - Tools Used:
