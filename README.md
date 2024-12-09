@@ -1,7 +1,7 @@
 # SDWA Analysis: Water Quality and Compliance
 
 <p align="center">
-  <img src="" >
+  <img src="Miscellaneous/Project_Title.png" >
 
   ## Table of contents
 - [Overview](#overview)
@@ -11,7 +11,7 @@
 - [Conclusions](#conclusion)
 - [Limitations](#limitations)
 - [Future Work](#future-work)
-- [Acknowlegements](#acknowledgements)
+- [Acknowledgements](#acknowledgements)
   
 ## Overview
 This project analyzes public water systems under the Safe Drinking Water Act (SDWA) to identify compliance patterns and categorize water systems based on violations and features.
@@ -25,12 +25,12 @@ The project focuses on evaluating and segmenting public water systems based on c
 
 ## Solution Strategy
 - Segmenting Water Systems
-| - Task: Unsupervised clustering using group 3 variables to create profiles of water systems key variables included compliance status, violation counts, and enforcement action categories
-| - Outcome: Identified clusters of water systems based on compliance patterns. This segmentation helped classify systems into high-rish, medium-risk, and low-risk categories, enabling focused regulatory interventions.
+       - Task: Unsupervised clustering using group 3 variables to create profiles of water systems key variables included compliance status, violation counts, and enforcement action categories
+       - Outcome: Identified clusters of water systems based on compliance patterns. This segmentation helped classify systems into high-rish, medium-risk, and low-risk categories, enabling focused regulatory interventions.
     
 - Identify key Factors
-| - Task: Perform feature importance analysis using supervised machine learning models (e.g., Logistic Regression, Naive Bayes). Key features like major violations, late compliance actions, and "outstanding performer" stuat were analyzed.
-| - Outcome: Determined which facotrs have the greatest impact on compliance behavior, allowing stakeholders to prioritize areas for improvement.
+      - Task: Perform feature importance analysis using supervised machine learning models (e.g., Logistic Regression, Naive Bayes). Key features like major violations, late compliance actions, and "outstanding performer" stuat were analyzed.
+      - Outcome: Determined which facotrs have the greatest impact on compliance behavior, allowing stakeholders to prioritize areas for improvement.
     
 ## Features
 - Clustering public water systems for compliance segmentation.
@@ -39,7 +39,7 @@ The project focuses on evaluating and segmenting public water systems based on c
 
 ## Models Used
 - Unsupervised Models
-    -  K-MEANS
+    - K-MEANS
     - GAUSSIAN MIXTURE MODEL
 - Supervised Models
     - Multinomial Logistic Regression
@@ -81,22 +81,22 @@ Compliance Trends
 
 ## Future Work
 - Enhanced Explainability
-        Goal: Integrate Explainable AI (XAI) to improve interpretability of clustering and prediction models.
-        Impact: Enable regulators and stakeholders to understand why certain systems are flagged as high-risk.
+        - Goal: Integrate Explainable AI (XAI) to improve interpretability of clustering and prediction models.
+        - Impact: Enable regulators and stakeholders to understand why certain systems are flagged as high-risk.
 - Real-Time Data Integration
-        Goal: Utilize streaming platforms for continuous monitoring of water system compliance.
-        Impact: Ensure proactive detection of emerging compliance issues.
+        - Goal: Utilize streaming platforms for continuous monitoring of water system compliance.
+        - Impact: Ensure proactive detection of emerging compliance issues.
 - Expanded Dataset Usage
-        Goal: Incorporate additional data such as geographical, socio-economic, and historical compliance records.
-        Impact: Provide a more comprehensive risk assessment framework.
+        - Goal: Incorporate additional data such as geographical, socio-economic, and historical compliance records.
+        - Impact: Provide a more comprehensive risk assessment framework.
 - Multi-Model Evaluation
-        Goal: Experiment with advanced clustering algorithms (e.g., DBSCAN or Hierarchical Clustering) for comparison with GMM results.
-        Impact: Ensure robustness and adaptability of clustering techniques.
+        - Goal: Experiment with advanced clustering algorithms (e.g., DBSCAN or Hierarchical Clustering) for comparison with GMM results.
+        - Impact: Ensure robustness and adaptability of clustering techniques.
 - Predictive Maintenance Models
-        Goal: Develop time-series models to predict future violations based on historical data.
-        Impact: Empower authorities to prevent violations before they occur.
+        - Goal: Develop time-series models to predict future violations based on historical data.
+        - Impact: Empower authorities to prevent violations before they occur.
 
-# Acknowledgments
+## Acknowledgments
 - Data sourced:
     - U.S. Environmental Protection Agency (EPA) [SDWA database](https://echo.epa.gov/tools/data-downloads#drinkingwater)
 - Tools Used:
