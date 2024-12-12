@@ -1,0 +1,21 @@
+Install PySpark Step by Step in Anaconda & Jupyter Notebook
+
+    Step 1. Download & Install Anaconda Distribution
+    Step 2. Install Java
+    Step 3. Install PySpark
+    Step 4. Install FindSpark
+    Step 5: Install Jupyter Notebook
+
+
+Step by Step Syntax
+
+Step 1: conda create --name <environment_name> <optional_packages>
+Step 2: conda activate <environment_name>
+Step 3: conda install openjdk
+Step 4: conda install pyspark
+Step 5: conda install -c conda-forge findspark
+Step 6: conda install pypi
+
+
+
+
