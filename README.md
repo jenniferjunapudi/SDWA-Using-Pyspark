@@ -10,7 +10,7 @@
 - [Features](#features)
 - [Models Used](#models-used)
 - [Visualizations](#visualizations)
-- [Conclusions](#conclusion)
+- [Conclusions](#conclusions)
 - [Limitations](#limitations)
 - [Future Work](#future-work)
 - [Acknowledgements](#acknowledgements)
@@ -26,12 +26,12 @@ The project focuses on evaluating and segmenting public water systems based on c
 
 ## Solution Strategy
 - Segmenting Water Systems
-       - Task: Unsupervised clustering using group 3 variables to create profiles of water systems key variables included compliance status, violation counts, and enforcement action categories
-       - Outcome: Identified clusters of water systems based on compliance patterns. This segmentation helped classify systems into high-rish, medium-risk, and low-risk categories, enabling focused regulatory interventions.
+  - Task: Unsupervised clustering using group 3 variables to create profiles of water systems key variables included compliance status, violation counts, and enforcement action categories
+  - Outcome: Identified clusters of water systems based on compliance patterns. This segmentation helped classify systems into high-rish, medium-risk, and low-risk categories, enabling focused regulatory interventions.
     
 - Identify key Factors
-      - Task: Perform feature importance analysis using supervised machine learning models (e.g., Logistic Regression, Naive Bayes). Key features like major violations, late compliance actions, and "outstanding performer" stuat were analyzed.
-      - Outcome: Determined which facotrs have the greatest impact on compliance behavior, allowing stakeholders to prioritize areas for improvement.
+  - Task: Perform feature importance analysis using supervised machine learning models (e.g., Logistic Regression, Naive Bayes). Key features like major violations, late compliance actions, and "outstanding performer" stuat were analyzed.
+  - Outcome: Determined which facotrs have the greatest impact on compliance behavior, allowing stakeholders to prioritize areas for improvement.
     
 ## Features
 - Clustering public water systems for compliance segmentation.
@@ -51,52 +51,55 @@ The project focuses on evaluating and segmenting public water systems based on c
 
 ## Visualizations
 Clustering Results
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="results/Clustering_Results.png" alt="Clustering Results" style="width: 45%;">
+    <img src="results/Model_Performance.png" alt="Model Performance" style="width: 45%;">
+</div>
 
-<p align="center"> <img src="results/clustering_results.png" alt="" width="70%"> </p>
 
 Dashboard
-
-<p align="left"> <img src="results/Overview_Page.png" alt="Overview_Page" width="30%"> </p> 
-<p align="center"> <img src="results/Analysis_Page.png" alt="Analysis_Page" width="30%"> </p> 
-<p align="right"> <img src="results/Visual_Page.png" alt="Visual_Page" width="30%"> </p>
+<div style="display: flex; justify-content: space-between;">
+    <img src="results/Overview_Page.png" alt="Overview_Page" style="width: 25%;">
+    <img src="results/Analysis_Page.png" alt="Analysis_Page" style="width: 25%;">
+    <img src="results/Visuals_Page.png" alt="Visuals_Page" style="width: 25%;">
+</div>
 
 ## Conclusions
 - Clustering Insights: 
-      - Created 5 distinct clusters with meaningful segmentation of water systems. High-risk clusters highlight operational priorities for regulatory actions.
+  - Created 5 distinct clusters with meaningful segmentation of water systems. High-risk clusters highlight operational priorities for regulatory actions.
 - Compliance Factors: 
-      - Major violations and late compliance actions are key indicators of system performance.
+  - Major violations and late compliance actions are key indicators of system performance.
 - Deployment:
-      - Power BI dashboard and GitHub repository established, facilitating easy access and visualization of analysis results.
+  - Power BI dashboard and GitHub repository established, facilitating easy access and visualization of analysis results.
 
 ## Limitations
 - Data Constraints
-        Limited dataset scope to compliance and violation records; excluded external factors like goeographical data
-        Inconsistent data quality (e.g., missing entries, multiple records with different attributes) requiring significant preprocessing.
+  - Limited dataset scope to compliance and violation records; excluded external factors like goeographical data, Inconsistent data quality (e.g., missing entries, multiple records with different attributes) requiring significant preprocessing.
 -  Cluster Interpretation Challenges
-        Difficulty in deriving domain-specific explanations for certain clusters due to a lack of contextual metadata.
+  - Difficulty in deriving domain-specific explanations for certain clusters due to a lack of contextual metadata.
 -  Model Assumptions
-        GMM clustering assumes normally distributed data, which might not always reflect real-world compliance behaviors.
+  - GMM clustering assumes normally distributed data, which might not always reflect real-world compliance behaviors.
 - Scalability
-        Current deployment pipeline and dashboard are designed for static datasets, limiting their effectiveness with high-volume or live data streams.
+  - Current deployment pipeline and dashboard are designed for static datasets, limiting their effectiveness with high-volume or live data streams.
 - Stakeholder Usability
-        The dashboard and repository might require technical expertise for full utilization, creating a learning curve for non-technical users.
+  - The dashboard and repository might require technical expertise for full utilization, creating a learning curve for non-technical users.
 
 ## Future Work
 - Enhanced Explainability
-        - Goal: Integrate Explainable AI (XAI) to improve interpretability of clustering and prediction models.
-        - Impact: Enable regulators and stakeholders to understand why certain systems are flagged as high-risk.
+  - Goal: Integrate Explainable AI (XAI) to improve interpretability of clustering and prediction models.
+  - Impact: Enable regulators and stakeholders to understand why certain systems are flagged as high-risk.
 - Real-Time Data Integration
-        - Goal: Utilize streaming platforms for continuous monitoring of water system compliance.
-        - Impact: Ensure proactive detection of emerging compliance issues.
+  - Goal: Utilize streaming platforms for continuous monitoring of water system compliance.
+  - Impact: Ensure proactive detection of emerging compliance issues.
 - Expanded Dataset Usage
-        - Goal: Incorporate additional data such as geographical, socio-economic, and historical compliance records.
-        - Impact: Provide a more comprehensive risk assessment framework.
+  - Goal: Incorporate additional data such as geographical, socio-economic, and historical compliance records.
+  - Impact: Provide a more comprehensive risk assessment framework.
 - Multi-Model Evaluation
-        - Goal: Experiment with advanced clustering algorithms (e.g., DBSCAN or Hierarchical Clustering) for comparison with GMM results.
-        - Impact: Ensure robustness and adaptability of clustering techniques.
+  - Goal: Experiment with advanced clustering algorithms (e.g., Latent Dirichlet Allocation, Power Iteration Clustering) for comparison with GMM results.
+  - Impact: Ensure robustness and adaptability of clustering techniques.
 - Predictive Maintenance Models
-        - Goal: Develop time-series models to predict future violations based on historical data.
-        - Impact: Empower authorities to prevent violations before they occur.
+  - Goal: Develop time-series models to predict future violations based on historical data.
+  - Impact: Empower authorities to prevent violations before they occur.
 
 ## Acknowledgements
 - Data sourced:
