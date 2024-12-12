@@ -5,6 +5,8 @@
 
   ## Table of contents
 - [Overview](#overview)
+- [Problem Statement](#problem-statement)
+- [Solution Strategy](#solution-strategy)
 - [Features](#features)
 - [Models Used](#models-used)
 - [Visualizations](#visualizations)
@@ -14,8 +16,7 @@
 - [Acknowledgements](#acknowledgements)
   
 ## Overview
-This project analyzes public water systems under the Safe Drinking Water Act (SDWA) to identify compliance patterns and categorize water systems based on violations and features.
-
+This project delves into public water systems overseen by the Safe Drinking Water Act (SDWA) to reveal compliance patterns and categorize systems based on their violations and characteristics. By employing clustering models, distinct groups of water systems were identified, shedding light on their performance and compliance status. Furthermore, supervised models were utilized to predict and monitor compliance, thus enhancing decision-making and resource allocation for regulatory authorities.
 
 ## Problem Statement
 The project focuses on evaluating and segmenting public water systems based on compliance with regulatory standards. These system's compliance is critical to ensuring public health and evironmental protection. The primary research questions are :
@@ -40,9 +41,9 @@ The project focuses on evaluating and segmenting public water systems based on c
 ## Models Used
 - Unsupervised Models
     - K-MEANS
-    - GAUSSIAN MIXTURE MODEL
+    - GAUSSIAN MIXTURE MODEL (Final Selection)
 - Supervised Models
-    - Multinomial Logistic Regression
+    - Multinomial Logistic Regression (Final Selection)
     - Random Foresst
     - Naive Bayes Classifer
 
@@ -51,20 +52,21 @@ The project focuses on evaluating and segmenting public water systems based on c
 ## Visualizations
 Clustering Results
 
-<p align="center"> <img src="results/cluster_visualizations.png" alt="Clustering Results" width="70%"> </p>
+<p align="center"> <img src="results/clustering_results.png" alt="" width="70%"> </p>
 
-Compliance Trends
+Dashboard
 
-<p align="center"> <img src="results/cluster_visualizations.png" alt="Clustering Results" width="70%"> </p>
+<p align="left"> <img src="results/Overview_Page.png" alt="Overview_Page" width="30%"> </p> 
+<p align="center"> <img src="results/Analysis_Page.png" alt="Analysis_Page" width="30%"> </p> 
+<p align="right"> <img src="results/Visual_Page.png" alt="Visual_Page" width="30%"> </p>
 
 ## Conclusions
-- Clustering Insights:
-      - Created 5 distinct clusters with meaningful segmentation of water systems.
-    High-risk clusters highlight operational priorities for regulatory actions.
-- Compliance Factors:
+- Clustering Insights: 
+      - Created 5 distinct clusters with meaningful segmentation of water systems. High-risk clusters highlight operational priorities for regulatory actions.
+- Compliance Factors: 
       - Major violations and late compliance actions are key indicators of system performance.
 - Deployment:
-       - Power BI dashboard and GitHub repository established.
+      - Power BI dashboard and GitHub repository established, facilitating easy access and visualization of analysis results.
 
 ## Limitations
 - Data Constraints
