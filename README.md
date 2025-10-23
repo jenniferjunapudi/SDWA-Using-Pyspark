@@ -52,16 +52,16 @@ The project focuses on evaluating and segmenting public water systems based on c
 ## Visualizations
 Clustering Results
 <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="results/Clustering_Results.png" alt="Clustering Results" style="width: 50%;">
-    <img src="results/Model_Performance.png" alt="Model Performance" style="width: 50%;">
+    <img src="results/Clustering_Results.png" alt="Clustering Results">
+    <img src="results/Model_Performance.png" alt="Model Performance">
 </div>
 
 
 Dashboard
 <div style="display: flex; justify-content: space-between;">
-    <img src="results/Overview_Page.png" alt="Overview_Page" style="width: 25%;">
-    <img src="results/Analysis_Page.png" alt="Analysis_Page" style="width: 25%;">
-    <img src="results/Visuals_Page.png" alt="Visuals_Page" style="width: 25%;">
+    <img src="results/Overview_Page.png" alt="Overview_Page">
+    <img src="results/Analysis_Page.png" alt="Analysis_Page">
+    <img src="results/Visuals_Page.png" alt="Visuals_Page">
 </div>
 
 ## Conclusions
