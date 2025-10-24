@@ -15,6 +15,8 @@ Step 3: conda install openjdk
 Step 4: conda install pyspark
 Step 5: conda install -c conda-forge findspark
 Step 6: conda install pypi
+Step 7: conda install jupyter
+
 
 
 
