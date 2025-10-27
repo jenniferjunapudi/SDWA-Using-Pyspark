@@ -16,6 +16,8 @@ Step 4: conda install pyspark
 Step 5: conda install -c conda-forge findspark
 Step 6: conda install pypi
 Step 7: conda install jupyter
+Step 8: conda install matplotlib
+
 
 
 
